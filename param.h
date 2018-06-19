@@ -1,11 +1,11 @@
-#define PARAM_N				200
-#define PARAM_K				9
+#define PARAM_N				144
+#define PARAM_K				5
 #define PREFIX                          (PARAM_N / (PARAM_K + 1))
 #define NR_INPUTS                       (1 << PREFIX)
 // Approximate log base 2 of number of elements in hash tables
 #define APX_NR_ELMS_LOG                 (PREFIX + 1)
 // Number of rows and slots is affected by this; 20 offers the best performance
-#define NR_ROWS_LOG                     20
+1;4205;0c#define NR_ROWS_LOG                     20
 
 // Setting this to 1 might make SILENTARMY faster, see TROUBLESHOOTING.md
 #define OPTIM_SIMPLIFY_ROUND		1
